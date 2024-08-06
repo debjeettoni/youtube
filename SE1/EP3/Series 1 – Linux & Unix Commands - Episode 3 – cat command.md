@@ -38,17 +38,10 @@ cat dir1/file1.txt dir2/file2.txt dir3/file3.txt
 cat file1.txt file2.txt file3.txt > file.txt
 ```
 ## Redirection Operators
-- >   for output to a file or command
-- >>  for appending output to a file or command
+- &lt;   for output to a file or command
+- &lt;&lt;  for appending output to a file or command
 - <   for input from a file or command
 - <<  for multi-line input from a file or command
-## Special use cases in cd command
-```
-. => current directory
-..=> parent directory
-~ => home directory
-- => previous directory
-```
 ## Create a file with contents using cat and redirection operators
 ```bash
 ## Create new content
