@@ -38,8 +38,8 @@ cat dir1/file1.txt dir2/file2.txt dir3/file3.txt
 cat file1.txt file2.txt file3.txt > file.txt
 ```
 ## Redirection Operators
-- &lt;   for output to a file or command
-- &lt;&lt;  for appending output to a file or command
+- &gt;   for output to a file or command
+- &gt;&gt;  for appending output to a file or command
 - <   for input from a file or command
 - <<  for multi-line input from a file or command
 ## Create a file with contents using cat and redirection operators
