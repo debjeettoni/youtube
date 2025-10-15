@@ -1,2 +1,5 @@
 # Ignore publish directory
 publish/
+
+# Ignore artifact directory
+artifacts/
